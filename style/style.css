@@ -14,8 +14,6 @@ h5 { font-size: 18px; margin: 30px 0 5px 0;}
 p { font-size: 16px; line-height: 22px; margin: 0 0 15px 0; }
 a { text-decoration: none; color: #0b8bbb; }
 a.nocolor {text-decoration: none; color: #555;}
-/*a.paper {text-decoration: none; color: #118c4e; font-size: 12pt; }*/
-a.paper {text-decoration: none; color: #0b8bbb; font-size: 12pt; font-weight: 510;}
 a.code {text-decoration: none; color: #0b8bbb; font-size: 10pt}
 a.venue-short{font-size: 16px;  line-height: 20px; color: #BC2026; display:inline;}
 a.navi {color:#555;}
@@ -34,11 +32,11 @@ a:hover { text-decoration: underline; }
     right:-10px;
 }
 
-#paper #author {font-size: 16px; line-height: 20px;}
-#paper #title {font-size: 16px; font-weight: 600; line-height: 20px; display:inline;}
-#paper #conference{font-size: 16px;  line-height: 20px;}
-#paper #venue-short{font-size: 16px;  line-height: 20px; color: #BC2026; display:inline;}
-#paper #press{font-size: 16px;  line-height: 20px; color:darkorange; display:inline;}
+#pub #author {font-size: 16px; line-height: 20px;}
+#pub #title {font-size: 16px; line-height: 20px; display:inline;}
+#pub #conference{font-size: 16px;  line-height: 20px;}
+#pub #venue-short{font-size: 16px;  line-height: 20px; color: #BC2026; display:inline;}
+#pub #press{font-size: 16px;  line-height: 20px; color:darkorange; display:inline;}
 
 #bib {display: inline-block; width: 730px; margin: 0 0 10px 0; }
 #bib #bib-content {float: right; width: 520px; line-height: 20px;}
