@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	/*list-style: none;*/
+    margin-left:30px;
+}
+li {
+    line-height:135%;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/************************************************************************************/
+/***************************************setting**************************************/
+/************************************************************************************/
+#page { width: 730px; margin-top:20px; margin-bottom:20px; margin-left: auto; margin-right: auto;  color: #111; border: 2px #000 solid; padding: 30px 70px 20px 70px; -webkit-box-shadow: 0px 0 50px #aaa; -moz-box-shadow: 0px 0 30px #aaa; box-shadow: 0px 0 50px #aaa; background: #fff; background: -moz-linear-gradient(top, #EEEEEE 0%, #FFFFFF 2%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DDDDDD), color-stop(2%,#EEEEEE));border-radius: 10px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;}
+body { font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; background-color: #eee; }
+h1 { font-size: 40px; margin: 0 0 30px 0; letter-spacing: -1px; }
+h2 { font-size: 34px; margin: 0 0 20px 0; }
+h3 { font-size: 22px; font-weight:bold; margin: 25px 0 15px 0; }
+h3.news {font-size: 22px; margin: 20px 0 15px 0; color:#FF0000;}
+h4 { font-size: 20px; margin: 30px 0 15px 0;}
+h5 { font-size: 18px; margin: 30px 0 5px 0;}
+p { font-size: 16px; line-height: 22px; margin: 0 0 15px 0; }
+a { text-decoration: none; color: #0b8bbb; }
+a.nocolor {text-decoration: none; color: #555;}
+/*a.paper {text-decoration: none; color: #118c4e; font-size: 12pt; }*/
+a.paper {text-decoration: none; color: #0b8bbb; font-size: 12pt; font-weight: 510;}
+a.code {text-decoration: none; color: #0b8bbb; font-size: 10pt}
+a.venue-short{font-size: 16px;  line-height: 20px; color: #BC2026; display:inline;}
+a.navi {color:#555;}
+a.press {font-size: 16px; color:deeppink; display:inline;}
+a:hover { text-decoration: underline; }
+#emptyline {width: 100%; height: 0.8em}
+
+
+#bold {font-weight: 600;}
+.box {
+    position:relative;
+}
+.bottom {
+    position:absolute;
+    bottom:-15px;
+    right:-10px;
+}
+
+#paper #author {font-size: 16px; line-height: 20px;}
+#paper #title {font-size: 16px; font-weight: 600; line-height: 20px; display:inline;}
+#paper #conference{font-size: 16px;  line-height: 20px;}
+#paper #venue-short{font-size: 16px;  line-height: 20px; color: #BC2026; display:inline;}
+#paper #press{font-size: 16px;  line-height: 20px; color:darkorange; display:inline;}
+
+#bib {display: inline-block; width: 730px; margin: 0 0 10px 0; }
+#bib #bib-content {float: right; width: 540px; line-height: 20px;}
+#bib #bib-content h1 { margin: 0 0 2px 0; color: #444; }
+#bib #bib-content h2 { color: #0b8bbb; font-size: 18px; }
+#bib #bib-content p { font-size: 15px; margin: 0 0 0 1px; }
+
+#bib #info {
+    position: relative;
+    float: left;
+	left:10px;
+	top:50px;  
+}
+
+#bib #info #bib-photo { 
+	background-color: #eee;  
+	padding: 4px 4px 2.5px 4px; 
+	-webkit-box-shadow: 0px 0 10px #aaa; 
+	-moz-box-shadow: 0px 0 10px #aaa; 
+	box-shadow: 0px 0 10px #aaa; 
+    border-radius: 50%;
+}
+#bib #info #bib-photo img {
+	position: relative;
+	width: 130px;
+	height: 130px;
+	border: 0px #ddd;
+    border-radius: 50%;
+}
+
+#name {
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+.name-en {
+	font-size: 42px;
+	color: #555;
+}
+
+.name-ch {
+	font-size: 28px;
+	color:#555;
+}
+
+.navi {
+	font-size: 20px;
+	color:#555; 
+}
+.navi span {
+    #background-color: #ccccff;
+}
+
+.column {width: 730px; margin: 0 0 10px 0; }
+
+.column h4.title { font-size: 16px; font-weight: 600; margin: 0px 0 5px 0; }
+.column h4.meta { font-size: 12px; color: #777; margin: 0 0 0px 0; }
+.column .column-content {
+	font-size:16px;
+	line-height: 20px;
+	padding: 0 0px 0px 0;
+}
+
+.column h4.proj-title { font-size: 18px; font-weight: 600; margin: 0px 0 5px 0; }
+
+.column .proj-content {
+	font-size:16px;
+	line-height: 20px;
+	padding: 0 0px 0px 0;
+	margin:0 0px 0px 20px;
+    text-align: justify
+}
+
+.footer {
+	left: 50%;
+	visibility: hidden;
+	position: absolute;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.pub-footer {
+	left: 48%;
+	top: 100%;
+	position: relative;
+    margin-left:auto;
+    margin-right: auto;
+}
