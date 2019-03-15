@@ -1,3 +1,7 @@
+
+@import "academicons.min.css";
+@import "all.css";
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -90,7 +94,7 @@ a:hover { text-decoration: underline; }
 #paper #press{font-size: 16px;  line-height: 20px; color:darkorange; display:inline;}
 
 #bib {display: inline-block; width: 730px; margin: 0 0 10px 0; }
-#bib #bib-content {float: right; width: 540px; line-height: 20px;}
+#bib #bib-content {float: right; width: 520px; line-height: 20px;}
 #bib #bib-content h1 { margin: 0 0 2px 0; color: #444; }
 #bib #bib-content h2 { color: #0b8bbb; font-size: 18px; }
 #bib #bib-content p { font-size: 15px; margin: 0 0 0 1px; }
@@ -99,7 +103,8 @@ a:hover { text-decoration: underline; }
     position: relative;
     float: left;
 	left:10px;
-	top:50px;  
+	top:50px; 
+    margin:auto;
 }
 
 #bib #info #bib-photo { 
@@ -109,6 +114,8 @@ a:hover { text-decoration: underline; }
 	-moz-box-shadow: 0px 0 10px #aaa; 
 	box-shadow: 0px 0 10px #aaa; 
     border-radius: 50%;
+    width:130px;
+    margin:auto;
 }
 #bib #info #bib-photo img {
 	position: relative;
@@ -121,6 +128,10 @@ a:hover { text-decoration: underline; }
 #name {
     position: relative;
     top: 10px;
+    text-align: center;
+}
+
+#network {
     text-align: center;
 }
 
@@ -176,4 +187,47 @@ a:hover { text-decoration: underline; }
 	position: relative;
     margin-left:auto;
     margin-right: auto;
+}
+
+ul.network-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin:auto;
+  margin-top:30px;
+}
+
+.network-icon {
+  margin-top: 30px;
+}
+
+.network-icon li {
+  margin-right: 10px;
+}
+
+.network-icon li:last-of-type {
+  margin-right: 0;
+}
+
+.network-icon li:hover {
+  transform: scale(1.2)
+}
+
+.big-icon {
+  font-size: 2rem;
+}
+
+a,
+h3.article-title a:hover {
+  color: rgb(68, 71, 90);
+  text-decoration: none;
+  transition: color 0.6s ease;
+}
+
+a:hover,
+a:focus {
+  color: #2962ff;
 }
