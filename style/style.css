@@ -3,7 +3,7 @@
 @import "all.css";
 
 
-#page { width: 730px; margin-top:20px; margin-bottom:20px; margin-left: auto; margin-right: auto; border: 2px #000 solid; padding: 30px 70px 20px 70px; -webkit-box-shadow: 0px 0 50px #aaa; -moz-box-shadow: 0px 0 30px #aaa; box-shadow: 0px 0 50px #aaa; background: #fff; background: -moz-linear-gradient(top, #EEEEEE 0%, #FFFFFF 2%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DDDDDD), color-stop(2%,#EEEEEE));border-radius: 10px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; color: #000;}
+#page { width: 740px; margin-top:20px; margin-bottom:20px; margin-left: auto; margin-right: auto; border: 2px #000 solid; padding: 30px 65px 20px 65px; -webkit-box-shadow: 0px 0 50px #aaa; -moz-box-shadow: 0px 0 30px #aaa; box-shadow: 0px 0 50px #aaa; background: #fff; background: -moz-linear-gradient(top, #EEEEEE 0%, #FFFFFF 2%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DDDDDD), color-stop(2%,#EEEEEE));border-radius: 10px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; color: #000;}
 body { font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; background-color: #eee; }
 h1 { font-size: 40px; margin: 0 0 30px 0; letter-spacing: -1px; }
 h2 { font-size: 34px; margin: 0 0 20px 0; }
@@ -38,8 +38,8 @@ a:hover { text-decoration: underline; }
 #pub #venue-short{font-size: 16px;  line-height: 20px; color: #BC2026; display:inline;}
 #pub #press{font-size: 16px;  line-height: 20px; color:darkorange; display:inline;}
 
-#bib {display: inline-block; width: 730px; margin: 0 0 10px 0; }
-#bib #bib-content {float: right; width: 530px; line-height: 20px;}
+#bib {display: inline-block; width: 740px; margin: 0 0 10px 0; }
+#bib #bib-content {float: right; width: 532px; line-height: 20px;}
 #bib #bib-content h1 { margin: 0 0 2px 0; color: #444; }
 #bib #bib-content h2 { color: #0b8bbb; font-size: 18px; }
 #bib #bib-content p { font-size: 15px; margin: 0 0 0 1px; }
@@ -99,7 +99,7 @@ a:hover { text-decoration: underline; }
     #background-color: #ccccff;
 }
 
-.column {width: 730px; margin: 0 0 10px 0; }
+.column {width: 740px; margin: 0 0 10px 0; }
 
 .column h4.title { font-size: 16px; font-weight: 600; margin: 0px 0 5px 0; }
 .column h4.meta { font-size: 12px; color: #777; margin: 0 0 0px 0; }
@@ -166,4 +166,12 @@ h3.article-title a:hover {
 a:hover,
 a:focus {
   color: #2962ff;
+}
+
+ol, ul {
+	/*list-style: none;*/
+    margin-left:20px;
+}
+li {
+    line-height:135%;
 }

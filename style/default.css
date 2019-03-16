@@ -25,13 +25,7 @@ body {
 	color: black;
 	background: white;
 }
-ol, ul {
-	/*list-style: none;*/
-    margin-left:30px;
-}
-li {
-    line-height:135%;
-}
+
 /* tables still need 'cellspacing="0"' in the markup */
 table {
 	border-collapse: separate;
