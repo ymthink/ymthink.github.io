@@ -3,8 +3,8 @@
 @import "all.css";
 
 
-#page { width: 740px; margin-top:20px; margin-bottom:20px; margin-left: auto; margin-right: auto; border: 2px #000 solid; padding: 30px 65px 20px 65px; -webkit-box-shadow: 0px 0 50px #aaa; -moz-box-shadow: 0px 0 30px #aaa; box-shadow: 0px 0 50px #aaa; background: #fff; background: -moz-linear-gradient(top, #EEEEEE 0%, #FFFFFF 2%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DDDDDD), color-stop(2%,#EEEEEE));border-radius: 10px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; color: #000;}
-body { font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; background-color: #eee; }
+#page { width: 740px; margin-top:20px; margin-bottom:20px; margin-left: auto; margin-right: auto; border: 2px #000 solid; padding: 30px 65px 20px 65px; -webkit-box-shadow: 0px 0 50px #aaa; -moz-box-shadow: 0px 0 30px #aaa; box-shadow: 0px 0 50px #dbc8c8; background: #fff; background: -moz-linear-gradient(top, #EEEEEE 0%, #FFFFFF 2%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(2%,#f7f7f7));border-radius: 10px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; color: #000;}
+body { font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; background-color: #eee; background: url(../images/noise.jpg);}
 h1 { font-size: 40px; margin: 0 0 30px 0; letter-spacing: -1px; }
 h2 { font-size: 34px; margin: 0 0 20px 0; }
 h3 { font-size: 22px; font-weight:bold; margin: 25px 0 15px 0; }
