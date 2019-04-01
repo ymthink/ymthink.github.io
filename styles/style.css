@@ -38,13 +38,13 @@ a:hover { text-decoration: underline; }
 #pub #venue-short{font-size: 16px;  line-height: 20px; color: #BC2026; display:inline;}
 #pub #press{font-size: 16px;  line-height: 20px; color:darkorange; display:inline;}
 
-#bib {display: inline-block; width: 740px; margin: 0 0 10px 0; }
-#bib #bib-content {float: right; width: 530px; line-height: 20px;}
-#bib #bib-content h1 { margin: 0 0 2px 0; color: #444; }
-#bib #bib-content h2 { color: #0b8bbb; font-size: 18px; }
-#bib #bib-content p { font-size: 15px; margin: 0 0 0 1px; }
+#bio {display: inline-block; width: 740px; margin: 0 0 10px 0; }
+#bio #bio-content {float: right; width: 530px; line-height: 20px;}
+#bio #bio-content h1 { margin: 0 0 2px 0; color: #444; }
+#bio #bio-content h2 { color: #0b8bbb; font-size: 18px; }
+#bio #bio-content p { font-size: 15px; margin: 0 0 0 1px; }
 
-#bib #info {
+#bio #info {
     position: relative;
     float: left;
 	left:8px;
@@ -52,7 +52,7 @@ a:hover { text-decoration: underline; }
     margin:auto;
 }
 
-#bib #info #bib-photo { 
+#bio #info #bio-photo { 
 	background-color: #eee;  
 	padding: 4px 4px 2.8px 4px; 
 	-webkit-box-shadow: 0px 0 10px #aaa; 
@@ -62,7 +62,7 @@ a:hover { text-decoration: underline; }
     width:130px;
     margin:auto;
 }
-#bib #info #bib-photo img {
+#bio #info #bio-photo img {
 	position: relative;
 	width: 130px;
 	height: 130px;
